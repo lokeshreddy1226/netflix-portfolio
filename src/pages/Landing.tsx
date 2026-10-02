@@ -21,7 +21,7 @@ const Landing = () => {
       setClicked(true);
       
       // Play the Netflix "tudum" sound
-      const audio = new Audio("/tudum.mp3");
+      const audio = new Audio("./tudum.mp3");
       audio.volume = 0.7;
       audio.play().catch(e => console.log("Audio playback failed:", e));
       

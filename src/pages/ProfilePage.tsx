@@ -25,15 +25,15 @@ const ProfilePage = () => {
   const getProfileBgVideo = () => {
     switch (profileType?.toLowerCase()) {
       case "recruiter":
-        return "/video/background.mp4";
+        return "./video/background.mp4";
       case "developer":
-        return "/video/coding.mp4";
+        return "./video/coding.mp4";
       case "stalker":
-        return "/video/stalker.mp4";
+        return "./video/stalker.mp4";
       case "adventurer":
-        return "/video/adventurer-background.mp4";
+        return "./video/adventurer-background.mp4";
       default:
-        return "/video/default-background.mp4";
+        return "./video/background.mp4";
     }
   };
   
