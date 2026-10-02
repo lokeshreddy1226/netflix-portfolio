@@ -2,14 +2,14 @@
 
 > A Netflix-inspired developer portfolio with role-based profile selection and a hacker terminal aesthetic.
 
-**Live Site → [usama-portfolio-site.vercel.app](https://usama-portfolio-site.vercel.app/)**
+**Live Site → [lreddyganga.github.io/netflix-portfolio](https://lreddyganga.github.io/netflix-portfolio/)**
 
 ---
 
 ## Preview
 
 | Splash Screen | Profile Select | Portfolio |
-|---|---|---|
+| --- | --- | --- |
 | Bold red-on-black intro | "Who's Watching?" — Recruiter / Developer / Stalker / Adventurer | Hacker terminal UI with resume, LinkedIn, GitHub links |
 
 ---
@@ -23,13 +23,12 @@ Inspired by Netflix's profile selection UX. Visitors pick a role (Recruiter, Dev
 ## Tech Stack
 
 | Layer | Technology |
-|---|---|
+| --- | --- |
 | Framework | React + TypeScript |
 | Build Tool | Vite |
 | Styling | Tailwind CSS |
 | UI Components | shadcn/ui |
-| Deployment | Vercel |
-| Built With | Lovable.dev |
+| Deployment | GitHub Pages |
 
 ---
 
@@ -47,10 +46,10 @@ Inspired by Netflix's profile selection UX. Visitors pick a role (Recruiter, Dev
 
 ```bash
 # Clone the repo
-git clone <YOUR_GIT_URL>
+git clone https://github.com/lreddyganga/netflix-portfolio.git
 
 # Navigate into the project
-cd <YOUR_PROJECT_NAME>
+cd netflix-portfolio
 
 # Install dependencies
 npm install
@@ -63,9 +62,9 @@ npm run dev
 
 ## Deployment
 
-Deployed on **Vercel**. For custom domains, use [Netlify](https://docs.lovable.dev/tips-tricks/custom-domain/) as recommended by Lovable.
+Hosted for free on **GitHub Pages** at [lreddyganga.github.io/netflix-portfolio](https://lreddyganga.github.io/netflix-portfolio/).
 
-To redeploy via Lovable: open the [Lovable project](https://lovable.dev/projects/449bfe25-12c5-419d-8f0b-85ee10e802c5) → Share → Publish.
+Every push to `master` triggers the [Deploy to GitHub Pages](.github/workflows/deploy.yml) workflow, which builds the Vite app and publishes it automatically.
 
 ---
 

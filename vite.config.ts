@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
+  // Relative base so the build works on GitHub Pages project sites
+  // (e.g. https://<user>.github.io/<repo>/) and any subpath.
+  base: "./",
   server: {
     host: "::",
     port: 8080,
