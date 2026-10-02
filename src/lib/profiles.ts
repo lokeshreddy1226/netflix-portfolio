@@ -3,14 +3,14 @@ export const profiles = [
   {
     id: 1,
     type: "Recruiter",
-    avatar: "/lovable-uploads/27c510dc-dc9f-4470-a7b9-34279eb80bca.jpeg",
+    avatar: "./lovable-uploads/27c510dc-dc9f-4470-a7b9-34279eb80bca.jpeg",
     contentFilter: ["workExperience", "skills", "certifications", "projects"],
     continueWatching: [
-      { title: "Work Permit", image: "/lovable-uploads/27c510dc-dc9f-4470-a7b9-34279eb80bca.jpeg" },
-      { title: "Skills", image: "/lovable-uploads/c475c34c-8f67-467b-a5d4-f5421e323810.jpg" },
-      { title: "Experience", image: "/lovable-uploads/1f10192c-5884-49ba-b201-08f2144721b6.jpg" },
-      { title: "Certifications", image: "/lovable-uploads/825adb96-f01f-42ec-8650-1bbaebffd433.jpg" },
-      { title: "Recommendations", image: "/lovable-uploads/1f10192c-5884-49ba-b201-08f2144721b6.jpg" },
+      { title: "Work Permit", image: "./lovable-uploads/27c510dc-dc9f-4470-a7b9-34279eb80bca.jpeg" },
+      { title: "Skills", image: "./lovable-uploads/c475c34c-8f67-467b-a5d4-f5421e323810.jpg" },
+      { title: "Experience", image: "./lovable-uploads/1f10192c-5884-49ba-b201-08f2144721b6.jpg" },
+      { title: "Certifications", image: "./lovable-uploads/825adb96-f01f-42ec-8650-1bbaebffd433.jpg" },
+      { title: "Recommendations", image: "./lovable-uploads/1f10192c-5884-49ba-b201-08f2144721b6.jpg" },
     ],
     skills: [
       {
@@ -30,13 +30,13 @@ export const profiles = [
   {
     id: 2,
     type: "Developer",
-    avatar: "/lovable-uploads/c475c34c-8f67-467b-a5d4-f5421e323810.jpg",
+    avatar: "./lovable-uploads/c475c34c-8f67-467b-a5d4-f5421e323810.jpg",
     contentFilter: ["projects", "technicalSkills", "openSource", "blog"],
     continueWatching: [
-      { title: "Open Source", image: "/lovable-uploads/c475c34c-8f67-467b-a5d4-f5421e323810.jpg" },
-      { title: "Technical Articles", image: "/lovable-uploads/1f10192c-5884-49ba-b201-08f2144721b6.jpg" },
-      { title: "GitHub", image: "/lovable-uploads/825adb96-f01f-42ec-8650-1bbaebffd433.jpg" },
-      { title: "Portfolio", image: "/lovable-uploads/27c510dc-dc9f-4470-a7b9-34279eb80bca.jpeg" },
+      { title: "Open Source", image: "./lovable-uploads/c475c34c-8f67-467b-a5d4-f5421e323810.jpg" },
+      { title: "Technical Articles", image: "./lovable-uploads/1f10192c-5884-49ba-b201-08f2144721b6.jpg" },
+      { title: "GitHub", image: "./lovable-uploads/825adb96-f01f-42ec-8650-1bbaebffd433.jpg" },
+      { title: "Portfolio", image: "./lovable-uploads/27c510dc-dc9f-4470-a7b9-34279eb80bca.jpeg" },
     ],
     skills: [
       {
@@ -56,13 +56,13 @@ export const profiles = [
   {
     id: 3,
     type: "Stalker",
-    avatar: "/lovable-uploads/1f10192c-5884-49ba-b201-08f2144721b6.jpg",
+    avatar: "./lovable-uploads/1f10192c-5884-49ba-b201-08f2144721b6.jpg",
     contentFilter: ["personalProjects", "aboutMe", "contactInfo", "social"],
     continueWatching: [
-      { title: "Music", image: "/lovable-uploads/1f10192c-5884-49ba-b201-08f2144721b6.jpg" },
-      { title: "Reading", image: "/lovable-uploads/c475c34c-8f67-467b-a5d4-f5421e323810.jpg" },
-      { title: "Blogs", image: "/lovable-uploads/825adb96-f01f-42ec-8650-1bbaebffd433.jpg" },
-      { title: "Contact Me", image: "/lovable-uploads/27c510dc-dc9f-4470-a7b9-34279eb80bca.jpeg" },
+      { title: "Music", image: "./lovable-uploads/1f10192c-5884-49ba-b201-08f2144721b6.jpg" },
+      { title: "Reading", image: "./lovable-uploads/c475c34c-8f67-467b-a5d4-f5421e323810.jpg" },
+      { title: "Blogs", image: "./lovable-uploads/825adb96-f01f-42ec-8650-1bbaebffd433.jpg" },
+      { title: "Contact Me", image: "./lovable-uploads/27c510dc-dc9f-4470-a7b9-34279eb80bca.jpeg" },
     ],
     skills: [
       {
@@ -82,13 +82,13 @@ export const profiles = [
   {
     id: 4,
     type: "Adventurer",
-    avatar: "/lovable-uploads/825adb96-f01f-42ec-8650-1bbaebffd433.jpg",
+    avatar: "./lovable-uploads/825adb96-f01f-42ec-8650-1bbaebffd433.jpg",
     contentFilter: ["allProjects", "blog", "creative", "experimental"],
     continueWatching: [
-      { title: "Coding Adventures", image: "/lovable-uploads/825adb96-f01f-42ec-8650-1bbaebffd433.jpg" },
-      { title: "Side Projects", image: "/lovable-uploads/1f10192c-5884-49ba-b201-08f2144721b6.jpg" },
-      { title: "Creative Coding", image: "/lovable-uploads/c475c34c-8f67-467b-a5d4-f5421e323810.jpg" },
-      { title: "Hackathons", image: "/lovable-uploads/27c510dc-dc9f-4470-a7b9-34279eb80bca.jpeg" },
+      { title: "Coding Adventures", image: "./lovable-uploads/825adb96-f01f-42ec-8650-1bbaebffd433.jpg" },
+      { title: "Side Projects", image: "./lovable-uploads/1f10192c-5884-49ba-b201-08f2144721b6.jpg" },
+      { title: "Creative Coding", image: "./lovable-uploads/c475c34c-8f67-467b-a5d4-f5421e323810.jpg" },
+      { title: "Hackathons", image: "./lovable-uploads/27c510dc-dc9f-4470-a7b9-34279eb80bca.jpeg" },
     ],
     skills: [
       {
