@@ -28,7 +28,7 @@ const VideoBackground = () => {
           opacity: 0.6
         }}
       >
-        <source src="/video/background.mp4" type="video/mp4" />
+        <source src="./video/background.mp4" type="video/mp4" />
       </video>
       
       <div
