@@ -1,4 +1,4 @@
-# Usama Hassan — Developer Portfolio
+# Lokesh Reddy Gangasani — Developer Portfolio
 
 > A Netflix-inspired developer portfolio with role-based profile selection and a hacker terminal aesthetic.
 
