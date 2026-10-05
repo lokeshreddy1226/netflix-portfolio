@@ -54,7 +54,7 @@ const ProfilePage = () => {
     }, 2000);
     
     // Play the Netflix sound when we load
-    const audioElement = new Audio('/tudum.mp3');
+    const audioElement = new Audio('./tudum.mp3');
     if (!playedIntro) {
       audioElement.play().catch(err => console.log("Audio play error:", err));
       setPlayedIntro(true);
@@ -114,9 +114,9 @@ const ProfilePage = () => {
 <nav className="fixed top-0 left-0 right-0 z-50 bg-black/30 backdrop-blur-sm px-12 py-4">
   <div className="flex justify-between items-center">
     <div className="netflix-logo-font">
-      <span className="text-netflix-red font-extrabold text-4xl tracking-tighter">USAMA</span>
+      <span className="text-netflix-red font-extrabold text-4xl tracking-tighter">LOKESH</span>
       {" "}  {" "}
-      <span className="text-white font-extrabold text-4xl tracking-tighter">HASSAN</span>
+      <span className="text-white font-extrabold text-4xl tracking-tighter">GANGASANI</span>
     </div>
     <div className="flex space-x-6 items-center">
       <a href="#home" className="hover:text-netflix-red transition-colors">Home</a>
@@ -147,14 +147,14 @@ const ProfilePage = () => {
           <section id="home" className="relative h-screen pt-24 z-10">
   <div className="px-12 h-full flex flex-col justify-center">
     <h1 className="text-4xl md:text-5xl font-bold mb-6 text-shadow-sm">
-      Usama Hassan - <span className="text-red-600"> WEB DEVELOPER.</span>
+      Lokesh Reddy Gangasani - <span className="text-red-600"> SOFTWARE ENGINEER.</span>
     </h1>
     <p className="text-white text-lg max-w-3xl mb-8 text-shadow-sm">
-      I'm a medical lab tech who's started dabbling in coding and AI. I've picked up some JavaScript—nothing fancy, just enough to tinker—and I'm hooked on how AI could shake up healthcare. Think better diagnostics, less guesswork, and maybe a little less coffee for me. If you're into tech, healthcare, or both, let's chat!
+      I'm a Software Engineer at Intuit building high-throughput distributed systems and LLM-powered developer tools. By day I move 50M+ financial transactions through reliable pipelines; by night I teach machines to write their own documentation. If you're into distributed systems, AI, or both, let's chat!
     </p>
     <div className="flex flex-wrap gap-4">
       <a 
-        href="https://yellow-vin-17.tiiny.site" 
+        href="./Lokesh_Reddy_Gangasani_Resume.pdf" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="bg-white text-black px-8 py-3 rounded-md flex items-center font-medium hover:bg-gray-200 transition-all transform hover:-translate-y-1"
@@ -162,23 +162,26 @@ const ProfilePage = () => {
         <span className="mr-2">▶</span> Resume
       </a>
       <a 
-        href="https://linkedin.com/in/usama-hsnn-532058331/" 
-        target="_blank" 
-        rel="noopener noreferrer" 
+        href="mailto:lokeshreddy1226@gmail.com" 
         className="group bg-gradient-to-r from-blue-700 to-blue-900 text-white px-8 py-3 rounded-md font-medium border border-blue-800 hover:border-blue-600 transition-all transform hover:-translate-y-1 flex items-center"
       >
         <svg 
           className="w-5 h-5 mr-2 group-hover:animate-pulse" 
-          fill="currentColor" 
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           viewBox="0 0 24 24" 
           xmlns="http://www.w3.org/2000/svg"
         >
-          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          <rect width="20" height="16" x="2" y="4" rx="2" />
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
         </svg>
-        LinkedIn
+        Email
       </a>
       <a 
-        href="https://github.com/shamihsnn" 
+        href="https://github.com/lokeshreddy1226" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="group bg-gradient-to-r from-gray-900 to-black text-white px-8 py-3 rounded-md font-medium border border-gray-700 hover:border-gray-500 transition-all transform hover:-translate-y-1 flex items-center"
@@ -208,28 +211,28 @@ const ProfilePage = () => {
       {[
         { 
           title: 'Work Permit', 
-          image: '/lovable-uploads/27c510dc-dc9f-4470-a7b9-34279eb80bca.jpeg',
-          link: 'https://linkedin.com/in/usama-hsnn-532058331/'
+          image: './lovable-uploads/27c510dc-dc9f-4470-a7b9-34279eb80bca.jpeg',
+          link: 'mailto:lokeshreddy1226@gmail.com'
         },
         { 
           title: 'Skills', 
-          image: '/lovable-uploads/OIP.jpeg',
-          link: 'https://linkedin.com/in/usama-hsnn-532058331/'
+          image: './lovable-uploads/OIP.jpeg',
+          link: 'mailto:lokeshreddy1226@gmail.com'
         },
         { 
           title: 'Experience', 
-          image: '/lovable-uploads/R.jpeg',
-          link: 'https://linkedin.com/in/usama-hsnn-532058331/'
+          image: './lovable-uploads/R.jpeg',
+          link: 'mailto:lokeshreddy1226@gmail.com'
         },
         { 
           title: 'Certifications', 
-          image: '/lovable-uploads/download (1).jpeg',
-          link: 'https://linkedin.com/in/usama-hsnn-532058331/'
+          image: './lovable-uploads/download (1).jpeg',
+          link: 'mailto:lokeshreddy1226@gmail.com'
         },
         { 
           title: 'Recommendations', 
-          image: '/lovable-uploads/OIP (1).jpeg',
-          link: 'https://linkedin.com/in/usama-hsnn-532058331/'
+          image: './lovable-uploads/OIP (1).jpeg',
+          link: 'mailto:lokeshreddy1226@gmail.com'
         },
       ].map((item) => (
         <a 
@@ -248,10 +251,11 @@ const ProfilePage = () => {
             <div className="w-full">
               <span className="text-white font-medium block">{item.title}</span>
               <div className="flex items-center mt-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                <svg className="w-4 h-4 text-linkedin-blue mr-1" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                <svg className="w-4 h-4 text-blue-400 mr-1" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" viewBox="0 0 24 24">
+                  <rect width="20" height="16" x="2" y="4" rx="2" />
+                  <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
                 </svg>
-                <span className="text-xs text-gray-300">View on LinkedIn</span>
+                <span className="text-xs text-gray-300">Get in touch</span>
               </div>
             </div>
           </div>
@@ -281,12 +285,12 @@ const ProfilePage = () => {
       { 
         title: 'Blogs', 
         image: 'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?q=80&w=1472&auto=format&fit=crop',
-        link: 'https://beryl-sprout-88a.notion.site/Model-Context-Protocol-MCP-The-AI-Connectivity-Revolution-1c4dd885068380c2bccdfc329715cb49'
+        link: 'https://github.com/lokeshreddy1226'
       },
       { 
         title: 'Contact Me', 
         image: 'https://images.unsplash.com/photo-1516387938699-a93567ec168e?q=80&w=1471&auto=format&fit=crop',
-        link: 'mailto:usamahsnnn@gmail.com'
+        link: 'mailto:lokeshreddy1226@gmail.com'
       },
     ].map((item) => (
       <a 
@@ -358,14 +362,14 @@ const ProfilePage = () => {
 <section id="home" className="relative h-screen pt-24 z-10">
   <div className="px-12 h-full flex flex-col justify-center">
     <h1 className="text-4xl md:text-5xl font-bold mb-6 text-shadow-sm">
-      Usama Hassan - <span className="text-red-600">Full Stack Developer</span>
+      Lokesh Reddy Gangasani - <span className="text-red-600">Software Engineer</span>
     </h1>
     <p className="text-white text-lg max-w-3xl mb-8 text-shadow-sm">
-      Dynamic and results-driven Full Stack Developer with expertise in modern web technologies. Passionate about creating scalable solutions and delivering exceptional user experiences.
+      Software Engineer with 4+ years across fintech and telecom — from Intuit's financial data backbone to AT&T's cloud infrastructure. I specialize in distributed systems, Kafka-based pipelines, and RAG-powered developer tools.
     </p>
     <div className="flex flex-wrap gap-4">
       <a 
-        href="https://yellow-vin-17.tiiny.site" 
+        href="./Lokesh_Reddy_Gangasani_Resume.pdf" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="bg-white text-black px-8 py-3 rounded-md flex items-center font-medium hover:bg-gray-200 transition-all transform hover:-translate-y-1"
@@ -373,23 +377,26 @@ const ProfilePage = () => {
         <span className="mr-2">▶</span> Resume
       </a>
       <a 
-        href="https://linkedin.com/in/usama-hsnn-532058331/" 
-        target="_blank" 
-        rel="noopener noreferrer" 
+        href="mailto:lokeshreddy1226@gmail.com" 
         className="group bg-gradient-to-r from-blue-700 to-blue-900 text-white px-8 py-3 rounded-md font-medium border border-blue-800 hover:border-blue-600 transition-all transform hover:-translate-y-1 flex items-center"
       >
         <svg 
           className="w-5 h-5 mr-2 group-hover:animate-pulse" 
-          fill="currentColor" 
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
           viewBox="0 0 24 24" 
           xmlns="http://www.w3.org/2000/svg"
         >
-          <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/>
+          <rect width="20" height="16" x="2" y="4" rx="2" />
+          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
         </svg>
-        LinkedIn
+        Email
       </a>
       <a 
-        href="https://github.com/shamihsnn" 
+        href="https://github.com/lokeshreddy1226" 
         target="_blank" 
         rel="noopener noreferrer" 
         className="group bg-gradient-to-r from-gray-900 to-black text-white px-8 py-3 rounded-md font-medium border border-gray-700 hover:border-gray-500 transition-all transform hover:-translate-y-1 flex items-center"
@@ -540,7 +547,7 @@ const ProfilePage = () => {
         <div className="absolute left-0 mt-2 w-64 rounded-md shadow-lg bg-black bg-opacity-90 border border-netflix-gray transform scale-0 group-hover:scale-100 transition-transform duration-150 origin-top-left z-20">
           <div className="py-2">
             <a 
-              href="https://beryl-sprout-88a.notion.site/Model-Context-Protocol-MCP-The-AI-Connectivity-Revolution-1c4dd885068380c2bccdfc329715cb49" 
+              href="https://github.com/lokeshreddy1226" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="block px-4 py-2 text-white hover:bg-netflix-red transition-colors duration-150"
@@ -548,7 +555,7 @@ const ProfilePage = () => {
               AI Connectivity Revolution
             </a>
             <a 
-              href="https://beryl-sprout-88a.notion.site/Introduction-to-Python-1a9dd8850683802cabeafa92740d3757" 
+              href="https://github.com/lokeshreddy1226" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="block px-4 py-2 text-white hover:bg-netflix-red transition-colors duration-150"
@@ -690,7 +697,7 @@ const ProfilePage = () => {
           <section id="adventures" className="relative h-screen pt-24 z-10">
             <div className="px-12 h-full flex flex-col justify-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6 text-shadow-xl">
-                Adventure Awaits with <span className="text-netflix-red">Usama Hassan</span>
+                Adventure Awaits with <span className="text-netflix-red">Lokesh</span>
               </h1>
               <p className="text-white text-lg max-w-3xl mb-8 text-shadow-lg">
                 Life is an experiment, and I'm the mad scientist. Join me on a journey through 
