@@ -1,6 +1,6 @@
 
 import React from "react";
-import { Github, Linkedin, Mail, MapPin } from "lucide-react";
+import { Github, Mail, MapPin } from "lucide-react";
 import { myInfo } from "@/lib/data";
 
 const Footer = () => {
@@ -78,13 +78,11 @@ const Footer = () => {
               </li>
               <li>
                 <a
-                  href={myInfo.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href={`mailto:${myInfo.email}`}
                   className="flex items-center gap-2 text-white/70 hover:text-white transition-colors"
                 >
-                  <Linkedin size={18} />
-                  LinkedIn
+                  <Mail size={18} />
+                  Email
                 </a>
               </li>
             </ul>
