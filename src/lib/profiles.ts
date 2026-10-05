@@ -14,16 +14,16 @@ export const profiles = [
     ],
     skills: [
       {
-        category: "Frontend Development",
-        techs: ["React", "JavaScript", "TypeScript", "HTML5", "CSS3", "Tailwind CSS"]
+        category: "Languages",
+        techs: ["Java", "Python", "JavaScript", "TypeScript", "SQL"]
       },
       {
-        category: "Backend Development",
-        techs: ["Node.js", "Express", "Ruby on Rails", "PostgreSQL", "MongoDB"]
+        category: "Backend & Distributed Systems",
+        techs: ["Spring Boot", "Kafka", "REST APIs", "Redis", "MySQL"]
       },
       {
-        category: "DevOps & Tools",
-        techs: ["Git", "Docker", "AWS", "CI/CD", "Kubernetes"]
+        category: "Cloud & DevOps",
+        techs: ["AWS", "Docker", "Kubernetes", "Terraform", "CI/CD"]
       }
     ]
   },
@@ -41,15 +41,19 @@ export const profiles = [
     skills: [
       {
         category: "Languages",
-        techs: ["TypeScript", "JavaScript", "Ruby", "Python", "SQL", "GraphQL"]
+        techs: ["Java", "Python", "JavaScript", "SQL", "Bash"]
       },
       {
-        category: "Frameworks",
-        techs: ["React", "Next.js", "Ruby on Rails", "Express", "NestJS"]
+        category: "Distributed Systems",
+        techs: ["Kafka", "gRPC", "RabbitMQ", "Redis", "Elasticsearch"]
       },
       {
-        category: "Tools",
-        techs: ["Git", "Docker", "AWS", "Kubernetes", "Terraform", "CI/CD"]
+        category: "AI & Productivity",
+        techs: ["RAG", "LLM Applications", "NLP", "Prompt Engineering"]
+      },
+      {
+        category: "Observability",
+        techs: ["Splunk", "Datadog", "Prometheus", "Grafana", "OpenTelemetry"]
       }
     ]
   },
@@ -66,16 +70,16 @@ export const profiles = [
     ],
     skills: [
       {
-        category: "Interests",
-        techs: ["Music", "Books", "Travel", "Photography", "Cooking"]
+        category: "Education",
+        techs: ["M.S. Software Engineering — San Jose State University", "B.Tech, Computer Science — VNR VJIET"]
       },
       {
-        category: "Languages",
-        techs: ["English", "Spanish", "French"]
+        category: "Career So Far",
+        techs: ["Software Engineer @ Intuit", "Software Engineer @ AT&T", "Systems Engineer @ TCS"]
       },
       {
-        category: "Hobbies",
-        techs: ["Hiking", "Gaming", "Blogging", "Podcasting"]
+        category: "Based In",
+        techs: ["San Jose, California"]
       }
     ]
   },
@@ -92,16 +96,12 @@ export const profiles = [
     ],
     skills: [
       {
-        category: "Creative Tech",
-        techs: ["Three.js", "WebGL", "Canvas API", "p5.js", "Creative Coding"]
+        category: "Bold Moves",
+        techs: ["8x throughput via async Kafka ingestion", "Zero-downtime migration of 10M+ annual transactions", "RAG pipeline across 350+ microservices"]
       },
       {
-        category: "Experimental",
-        techs: ["AR/VR", "WebXR", "Machine Learning", "IoT", "Generative Art"]
-      },
-      {
-        category: "Game Dev",
-        techs: ["Unity", "Phaser", "JavaScript Games", "Pixel Art", "Game Design"]
+        category: "Off the Keyboard",
+        techs: ["Zoos", "Weekend getaways", "Frontier GoWild pass"]
       }
     ]
   }
